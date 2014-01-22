@@ -2,9 +2,8 @@ package resources.Pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import resources.Pages.BasePage;
+import static junit.framework.Assert.assertTrue;
 
-import static org.junit.Assert.assertTrue;
 
 /**
  * Created by Admin on 13/01/14.

@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"./src/test/features/"},
-        format = {"pretty", "html:BDD_test_report"}
-//        tags = {"~@Filter"}
+        format = {"pretty", "html:BDD_test_report"},
+        tags = {"@coke"}
 )
 public class RunCucumberTests {
 

@@ -1,9 +1,14 @@
 package steps;
 
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import junit.framework.Assert;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import resources.Pages.BasePage;
 import resources.Pages.LoginPage;
 import resources.Pages.SearchPage;
@@ -29,7 +34,6 @@ public class LoginSteps{
 
     @Then("^I should be navigated to Login Page$")
     public void I_should_be_navigated_to_Login_Page() throws Throwable {
-
         loginPage.VerifyLoginPage();
     }
 
@@ -43,5 +47,14 @@ public class LoginSteps{
         loginPage.VerifySuccessfulLogin();
     }
 
+
+    @After("@coke")
+    public void tearDown(Scenario scenario) {
+        if (scenario.isFailed()) {
+            byte[] screenshot = basePage.captureScreenshot();
+            scenario.embed(screenshot, "image/png"); //stick it in the report
+        }
+        basePage.closeBrowser();
+    }
 
 }

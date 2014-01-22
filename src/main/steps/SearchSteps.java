@@ -37,6 +37,8 @@ public class SearchSteps{
         searchPage.verifySearchResultsCount(Integer.parseInt(productsCount));
         searchPage.verifyCategoryNameInSearchResults(categoryName);
     }
+
+
 }
 
 

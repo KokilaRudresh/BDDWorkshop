@@ -1,8 +1,6 @@
 package resources.Pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.List;
@@ -39,5 +37,16 @@ public class BasePage {
     public LoginPage NavigateToLogin() {
         webDriver.findElement(By.linkText("LOGIN")).click();
         return new LoginPage(webDriver);
+    }
+
+    public byte[] captureScreenshot() {
+        final byte[] screenshot = ((TakesScreenshot) webDriver)
+                .getScreenshotAs(OutputType.BYTES);
+        return screenshot;
+    }
+
+    public void closeBrowser() {
+        webDriver.close();
+        webDriver.close();
     }
 }

@@ -64,10 +64,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ShoppingCartSteps.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/steps/ShoppingCartSteps.java">
+      <file leaf-file-name="ShoppingList.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/features/ShoppingList.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="134" selection-end="134" vertical-scroll-proportion="-0.16085792" vertical-offset="135" max-vertical-offset="780">
+            <state line="6" column="15" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="19" selection-start="402" selection-end="1239" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="675">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cucumber-junit-1.1.5.pom" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/info/cukes/cucumber-junit/1.1.5/cucumber-junit-1.1.5.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -76,37 +94,17 @@
       <file leaf-file-name="Search.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/features/Search.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="555">
+            <state line="20" column="8" selection-start="646" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunCucumberTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/RunCucumberTests.java">
+      <file leaf-file-name="Product.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/TestData/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+            <state line="9" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="49" selection-start="929" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchSteps.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/steps/SearchSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="151" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="720">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -114,7 +112,7 @@
       <file leaf-file-name="LoginPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="795">
+            <state line="28" column="71" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="795">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,8 +123,10 @@
       <file leaf-file-name="SearchPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2145">
-              <folding />
+            <state line="16" column="13" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="2145">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +143,7 @@
       <file leaf-file-name="ProductDetailsPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/ProductDetailsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="52" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+            <state line="11" column="49" selection-start="238" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,10 +151,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginSteps.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LoginSteps.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/steps/LoginSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+            <state line="37" column="3" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.78880405" vertical-offset="245" max-vertical-offset="990">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,23 +178,23 @@
         <option value="$PROJECT_DIR$/src/main/resources/PagesNew/Page/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/PagesNew/Page/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/features/Login.feature" />
         <option value="$PROJECT_DIR$/src/test/features/ShoppingList.feature" />
         <option value="$PROJECT_DIR$/src/test/features/Search.feature" />
         <option value="$PROJECT_DIR$/src/main/RunCucumberTests.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Pages/ProductDetailsPage.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/steps/BaseStep.java" />
-        <option value="$PROJECT_DIR$/src/main/steps/LoginSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/steps/ShoppingCartSteps.java" />
         <option value="$PROJECT_DIR$/src/main/resources/TestData/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/steps/SearchSteps.java" />
         <option value="$PROJECT_DIR$/src/main/steps/FilterSteps.java" />
         <option value="$PROJECT_DIR$/src/test/features/FilterProducts.feature" />
-        <option value="$PROJECT_DIR$/src/test/RunCucumberTests.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Pages/ShoppingCartPage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/steps/SearchSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/RunCucumberTests.java" />
+        <option value="$PROJECT_DIR$/src/test/features/Login.feature" />
+        <option value="$PROJECT_DIR$/src/main/steps/ShoppingCartSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/steps/LoginSteps.java" />
       </list>
     </option>
   </component>
@@ -228,7 +228,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1280" />
+    <option name="width" value="1152" />
     <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -455,7 +455,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -686,6 +692,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="918887d6-ca3d-4066-94c1-a0275e02892a" name="Default" comment="" />
@@ -695,7 +718,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="725" extended-state="0" />
+    <frame x="0" y="22" width="1152" height="725" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -704,18 +727,18 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49583334" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3246951" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32317072" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35365853" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2777778" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3871951" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3262195" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -751,7 +774,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/steps/ShoppingCartSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -759,7 +784,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="31" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="735">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -811,7 +836,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="116" column="0" selection-start="4747" selection-end="4747" vertical-scroll-proportion="0.0" vertical-offset="1740" max-vertical-offset="2010">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -827,7 +854,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/steps/ShoppingCartSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -835,7 +864,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="735">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -887,7 +916,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="106" column="12" selection-start="4428" selection-end="4428" vertical-scroll-proportion="0.0" vertical-offset="1590" max-vertical-offset="2175">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -897,13 +928,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="41" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="675">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,49 +986,9 @@
         <state line="401" column="9" selection-start="14405" selection-end="14405" vertical-scroll-proportion="0.0" vertical-offset="5552" max-vertical-offset="7380" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/features/ShoppingList.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TestData/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/features/Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/features/Search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/features/FilterProducts.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/RunCucumberTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2145">
           <folding />
         </state>
       </provider>
@@ -1016,62 +1000,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/ProductDetailsPage.java">
+    <entry file="file://$MAVEN_REPOSITORY$/info/cukes/cucumber-junit/1.1.5/cucumber-junit-1.1.5.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="52" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="49" selection-start="929" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="735">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/ProductDetailsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="795">
+        <state line="11" column="49" selection-start="238" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="2145">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/features/ShoppingList.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/steps/FilterSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="735">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="12" column="42" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="690">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/steps/LoginSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/steps/SearchSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="151" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="720">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="21" column="48" selection-start="583" selection-end="583" vertical-scroll-proportion="0.2925532" vertical-offset="105" max-vertical-offset="825">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/steps/ShoppingCartSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="134" selection-end="134" vertical-scroll-proportion="-0.16085792" vertical-offset="135" max-vertical-offset="780">
+        <state line="29" column="25" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="780">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="19" selection-start="402" selection-end="1239" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="675">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/steps/SearchSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="57" selection-start="1306" selection-end="1344" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="750">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="71" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="795">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/TestData/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/RunCucumberTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="273" selection-end="273" vertical-scroll-proportion="0.25301206" vertical-offset="0" max-vertical-offset="415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/features/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="17" selection-start="321" selection-end="321" vertical-scroll-proportion="0.43373495" vertical-offset="0" max-vertical-offset="415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/features/Search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="8" selection-start="646" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/steps/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="3" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.78880405" vertical-offset="245" max-vertical-offset="990">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
