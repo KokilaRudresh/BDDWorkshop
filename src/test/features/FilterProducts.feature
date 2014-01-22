@@ -16,5 +16,5 @@ Feature: Filter Products
   @Filter
   Scenario: Filter by Brand and see Price Range
     Given I launch the app
-    When I filter by category "Clothing"
+    When I filter by category "Bags"
     Then I should see the filter for price range
