@@ -48,7 +48,7 @@ public class LoginSteps{
     }
 
 
-    @After("@coke")
+    @After()
     public void tearDown(Scenario scenario) {
         if (scenario.isFailed()) {
             byte[] screenshot = basePage.captureScreenshot();
