@@ -1,0 +1,13 @@
+idea/
+.idea/*
+*.iml
+*.ipr
+*.class
+**classes/
+*build/
+**build
+BDD_test_report
+BDD_test_report/*
+target
+target/*
+
