@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"./src/test/features/"},
         format = {"pretty", "html:BDD_test_report"}
-//        tags = {"@coke"}
+//        tags = {"@coke"}, dryRun = true, glue = {}
 )
 public class RunCucumberTests {
 

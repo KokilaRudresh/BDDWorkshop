@@ -39,7 +39,7 @@ formatter.match({
   "location": "LoginSteps.I_launch_the_app()"
 });
 formatter.result({
-  "duration": 9633940000,
+  "duration": 8840329000,
   "status": "passed"
 });
 formatter.match({
@@ -52,7 +52,7 @@ formatter.match({
   "location": "FilterSteps.I_filter_by_category(String)"
 });
 formatter.result({
-  "duration": 959403000,
+  "duration": 807629000,
   "status": "passed"
 });
 formatter.match({
@@ -65,11 +65,11 @@ formatter.match({
   "location": "FilterSteps.I_should_see_products_with_category_in_the_results(String)"
 });
 formatter.result({
-  "duration": 67369000,
+  "duration": 49170000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 29948000,
+  "duration": 12440000,
   "status": "passed"
 });
 formatter.scenario({
@@ -105,7 +105,7 @@ formatter.match({
   "location": "LoginSteps.I_launch_the_app()"
 });
 formatter.result({
-  "duration": 2787130000,
+  "duration": 3078077000,
   "status": "passed"
 });
 formatter.match({
@@ -118,7 +118,7 @@ formatter.match({
   "location": "FilterSteps.I_filter_by_category(String)"
 });
 formatter.result({
-  "duration": 946672000,
+  "duration": 918983000,
   "status": "passed"
 });
 formatter.match({
@@ -131,11 +131,11 @@ formatter.match({
   "location": "FilterSteps.I_should_see_products_with_category_in_the_results(String)"
 });
 formatter.result({
-  "duration": 68448000,
+  "duration": 96263000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 14897000,
+  "duration": 11885000,
   "status": "passed"
 });
 formatter.scenario({
@@ -171,7 +171,7 @@ formatter.match({
   "location": "LoginSteps.I_launch_the_app()"
 });
 formatter.result({
-  "duration": 2809105000,
+  "duration": 3118646000,
   "status": "passed"
 });
 formatter.match({
@@ -184,7 +184,7 @@ formatter.match({
   "location": "FilterSteps.I_filter_by_category(String)"
 });
 formatter.result({
-  "duration": 926799000,
+  "duration": 877163000,
   "status": "passed"
 });
 formatter.match({
@@ -197,11 +197,11 @@ formatter.match({
   "location": "FilterSteps.I_should_see_products_with_category_in_the_results(String)"
 });
 formatter.result({
-  "duration": 60144000,
+  "duration": 56273000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 12777000,
+  "duration": 14591000,
   "status": "passed"
 });
 formatter.scenario({
@@ -237,7 +237,7 @@ formatter.match({
   "location": "LoginSteps.I_launch_the_app()"
 });
 formatter.result({
-  "duration": 2737467000,
+  "duration": 3621440000,
   "status": "passed"
 });
 formatter.match({
@@ -250,18 +250,18 @@ formatter.match({
   "location": "FilterSteps.I_filter_by_category(String)"
 });
 formatter.result({
-  "duration": 938586000,
+  "duration": 911898000,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.I_should_see_the_filter_for_price_range()"
 });
 formatter.result({
-  "duration": 10024000,
+  "duration": 13367000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 11943000,
+  "duration": 11836000,
   "status": "passed"
 });
 formatter.uri("Login.feature");
@@ -288,7 +288,7 @@ formatter.match({
   "location": "LoginSteps.I_launch_the_app()"
 });
 formatter.result({
-  "duration": 2952447000,
+  "duration": 3282539000,
   "status": "passed"
 });
 formatter.scenario({
@@ -319,18 +319,18 @@ formatter.match({
   "location": "LoginSteps.I_click_on_the_Login_Link()"
 });
 formatter.result({
-  "duration": 759322000,
+  "duration": 823917000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.I_should_be_navigated_to_Login_Page()"
 });
 formatter.result({
-  "duration": 28374000,
+  "duration": 27565000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 13869000,
+  "duration": 11053000,
   "status": "passed"
 });
 formatter.background({
@@ -349,7 +349,7 @@ formatter.match({
   "location": "LoginSteps.I_launch_the_app()"
 });
 formatter.result({
-  "duration": 3069148000,
+  "duration": 3307018000,
   "status": "passed"
 });
 formatter.scenario({
@@ -379,25 +379,25 @@ formatter.match({
   "location": "LoginSteps.I_click_on_the_Login_Link()"
 });
 formatter.result({
-  "duration": 749494000,
+  "duration": 729558000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.I_enter_credentials_and_continue()"
 });
 formatter.result({
-  "duration": 1028172000,
+  "duration": 1018990000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.I_should_be_able_to_Login()"
 });
 formatter.result({
-  "duration": 22144000,
+  "duration": 23741000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 10244000,
+  "duration": 12991000,
   "status": "passed"
 });
 formatter.uri("Search.feature");
@@ -435,7 +435,7 @@ formatter.match({
   "location": "LoginSteps.I_launch_the_app()"
 });
 formatter.result({
-  "duration": 2897218000,
+  "duration": 3258578000,
   "status": "passed"
 });
 formatter.match({
@@ -448,7 +448,7 @@ formatter.match({
   "location": "SearchSteps.I_search_for_product(String)"
 });
 formatter.result({
-  "duration": 943881000,
+  "duration": 981046000,
   "status": "passed"
 });
 formatter.match({
@@ -465,11 +465,11 @@ formatter.match({
   "location": "SearchSteps.I_should_see_item_in_the_results_with_the_count_of(String,String)"
 });
 formatter.result({
-  "duration": 328801000,
+  "duration": 321719000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 11756000,
+  "duration": 11109000,
   "status": "passed"
 });
 formatter.scenario({
@@ -506,7 +506,7 @@ formatter.match({
   "location": "LoginSteps.I_launch_the_app()"
 });
 formatter.result({
-  "duration": 3077495000,
+  "duration": 3167692000,
   "status": "passed"
 });
 formatter.match({
@@ -519,7 +519,7 @@ formatter.match({
   "location": "SearchSteps.I_search_for_product(String)"
 });
 formatter.result({
-  "duration": 927793000,
+  "duration": 932189000,
   "status": "passed"
 });
 formatter.match({
@@ -536,11 +536,11 @@ formatter.match({
   "location": "SearchSteps.I_should_see_item_in_the_results_with_the_count_of(String,String)"
 });
 formatter.result({
-  "duration": 321201000,
+  "duration": 298656000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 11066000,
+  "duration": 12943000,
   "status": "passed"
 });
 formatter.scenario({
@@ -577,7 +577,7 @@ formatter.match({
   "location": "LoginSteps.I_launch_the_app()"
 });
 formatter.result({
-  "duration": 2776637000,
+  "duration": 3030450000,
   "status": "passed"
 });
 formatter.match({
@@ -590,7 +590,7 @@ formatter.match({
   "location": "SearchSteps.I_search_for_product(String)"
 });
 formatter.result({
-  "duration": 824524000,
+  "duration": 858487000,
   "status": "passed"
 });
 formatter.match({
@@ -607,11 +607,11 @@ formatter.match({
   "location": "SearchSteps.I_should_see_item_in_the_results_with_the_count_of(String,String)"
 });
 formatter.result({
-  "duration": 108888000,
+  "duration": 101272000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 10771000,
+  "duration": 12165000,
   "status": "passed"
 });
 formatter.scenario({
@@ -654,7 +654,7 @@ formatter.match({
   "location": "LoginSteps.I_launch_the_app()"
 });
 formatter.result({
-  "duration": 3098323000,
+  "duration": 3576385000,
   "status": "passed"
 });
 formatter.match({
@@ -667,7 +667,7 @@ formatter.match({
   "location": "SearchSteps.I_click_on_Product_Category(String)"
 });
 formatter.result({
-  "duration": 812294000,
+  "duration": 874479000,
   "status": "passed"
 });
 formatter.match({
@@ -684,11 +684,11 @@ formatter.match({
   "location": "SearchSteps.I_should_see_all_Products_with_Category_in_the_results_with_the_count_of(String,String)"
 });
 formatter.result({
-  "duration": 34362000,
+  "duration": 32685000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 10261000,
+  "duration": 12336000,
   "status": "passed"
 });
 formatter.scenario({
@@ -731,7 +731,7 @@ formatter.match({
   "location": "LoginSteps.I_launch_the_app()"
 });
 formatter.result({
-  "duration": 2868129000,
+  "duration": 3321731000,
   "status": "passed"
 });
 formatter.match({
@@ -744,7 +744,7 @@ formatter.match({
   "location": "SearchSteps.I_click_on_Product_Category(String)"
 });
 formatter.result({
-  "duration": 837142000,
+  "duration": 972808000,
   "status": "passed"
 });
 formatter.match({
@@ -761,11 +761,11 @@ formatter.match({
   "location": "SearchSteps.I_should_see_all_Products_with_Category_in_the_results_with_the_count_of(String,String)"
 });
 formatter.result({
-  "duration": 29690000,
+  "duration": 34410000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 12216000,
+  "duration": 12388000,
   "status": "passed"
 });
 formatter.scenario({
@@ -808,7 +808,7 @@ formatter.match({
   "location": "LoginSteps.I_launch_the_app()"
 });
 formatter.result({
-  "duration": 3137920000,
+  "duration": 3429513000,
   "status": "passed"
 });
 formatter.match({
@@ -821,7 +821,7 @@ formatter.match({
   "location": "SearchSteps.I_click_on_Product_Category(String)"
 });
 formatter.result({
-  "duration": 975836000,
+  "duration": 1052328000,
   "status": "passed"
 });
 formatter.match({
@@ -838,11 +838,75 @@ formatter.match({
   "location": "SearchSteps.I_should_see_all_Products_with_Category_in_the_results_with_the_count_of(String,String)"
 });
 formatter.result({
-  "duration": 35034000,
+  "duration": 48643000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 13511000,
+  "duration": 14629000,
+  "status": "passed"
+});
+formatter.scenario({
+  "id": ";i-should-be-able-to-search-for-a-product-and-see-the-product-details",
+  "description": "",
+  "name": "I should be able to search for a product and see the product details",
+  "keyword": "Scenario",
+  "line": 34,
+  "type": "scenario"
+});
+formatter.step({
+  "name": "I launch the app",
+  "keyword": "Given ",
+  "line": 35
+});
+formatter.step({
+  "name": "I search for a product \"Ruby on Rails Tote\" with category \"Bags\"",
+  "keyword": "When ",
+  "line": 36
+});
+formatter.step({
+  "name": "I see the price as \"$15.99\"",
+  "keyword": "Then ",
+  "line": 37
+});
+formatter.match({
+  "location": "LoginSteps.I_launch_the_app()"
+});
+formatter.result({
+  "duration": 2982232000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ruby on Rails Tote",
+      "offset": 24
+    },
+    {
+      "val": "Bags",
+      "offset": 59
+    }
+  ],
+  "location": "SearchSteps.I_search_for_a_product_with_category(String,String)"
+});
+formatter.result({
+  "duration": 1662777000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "$15.99",
+      "offset": 20
+    }
+  ],
+  "location": "SearchSteps.I_see_the_price_as(String)"
+});
+formatter.result({
+  "duration": 17080000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 13606000,
   "status": "passed"
 });
 formatter.uri("ShoppingList.feature");
@@ -925,14 +989,14 @@ formatter.match({
   "location": "LoginSteps.I_launch_the_app()"
 });
 formatter.result({
-  "duration": 3362651000,
+  "duration": 3234634000,
   "status": "passed"
 });
 formatter.match({
   "location": "ShoppingCartSteps.I_add_the_following_products(Product\u003e)"
 });
 formatter.result({
-  "duration": 9297869000,
+  "duration": 9682397000,
   "status": "passed"
 });
 formatter.match({
@@ -949,18 +1013,18 @@ formatter.match({
   "location": "ShoppingCartSteps.I_should_see_Items_in_the_Cart_of_Price(String,String)"
 });
 formatter.result({
-  "duration": 7115000,
+  "duration": 21401000,
   "status": "passed"
 });
 formatter.match({
   "location": "ShoppingCartSteps.I_should_be_able_to_checkout_as_Guest()"
 });
 formatter.result({
-  "duration": 3113424000,
+  "duration": 3204380000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 16071000,
+  "duration": 14967000,
   "status": "passed"
 });
 });

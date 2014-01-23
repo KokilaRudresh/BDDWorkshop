@@ -1,12 +1,16 @@
 package steps;
 
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import resources.Pages.ProductDetailsPage;
 import resources.Pages.SearchPage;
 
-public class SearchSteps{
+public class SearchSteps {
 
     private SearchPage searchPage;
+    public static ProductDetailsPage productDetailsPage;
 
     public SearchSteps() {
         this.searchPage = LoginSteps.searchPage;
@@ -38,7 +42,18 @@ public class SearchSteps{
         searchPage.verifyCategoryNameInSearchResults(categoryName);
     }
 
+    @And("^I search for a product \"([^\"]*)\" with category \"([^\"]*)\"$")
+    public ProductDetailsPage I_search_for_a_product_with_category(String product, String category) throws Throwable {
+        this.productDetailsPage =  searchPage
+                .selectCategory(category)
+                .selectProduct(product);
+        return productDetailsPage;
+    }
 
+    @Then("^I see the price as \"([^\"]*)\"$")
+    public void I_see_the_price_as(String price) throws Throwable {
+        productDetailsPage.verifyProductPrice(price);
+    }
 }
 
 

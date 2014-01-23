@@ -4,8 +4,11 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import junit.framework.Assert;
+import resources.Pages.ProductDetailsPage;
 import resources.Pages.SearchPage;
+import resources.Pages.ShoppingCartPage;
 import resources.TestData.Product;
+import steps.SearchSteps;
 
 import java.util.List;
 
@@ -15,23 +18,23 @@ import java.util.List;
 public class ShoppingCartSteps {
 
     private SearchPage searchPage;
+    private SearchSteps searchSteps;
 
     public ShoppingCartSteps() {
         this.searchPage = LoginSteps.searchPage;
+        this.searchSteps = new SearchSteps();
+
     }
 
     @When("^I add the following products$")
     public void I_add_the_following_products(List<Product> products) throws Throwable {
         for (Product product : products) {
-            searchPage
-                    .selectCategory(product.category)
-                    .selectProduct(product.productName)
+             searchSteps.I_search_for_a_product_with_category(product.productName, product.category)
                     .setQuantity(product.quantity)
                     .addToCart()
                     .verifyProductDetails(product.productName, product.quantity)
                     .continueShopping();
         }
-
     }
 
     @Then("^I should see \"([^\"]*)\" Items in the Cart of Price \"([^\"]*)\"$")

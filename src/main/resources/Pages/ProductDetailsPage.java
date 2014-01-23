@@ -1,7 +1,10 @@
 package resources.Pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
+import static junit.framework.Assert.assertTrue;
 
 
 /**
@@ -28,4 +31,10 @@ public class ProductDetailsPage extends BasePage {
         return new ShoppingCartPage(webDriver);
     }
 
+    public ProductDetailsPage verifyProductPrice(String price) {
+        String priceElementlocator = String.format("//div[@id='product-price']/div/span[contains(.,'%s')]", price);
+        WebElement priceElement = webDriver.findElement(By.xpath(priceElementlocator));
+        assertTrue("Price is not matching",null != priceElement);
+        return this;
+    }
 }
